@@ -1,6 +1,6 @@
 "use strict";
 
-var scryptNative = require("./build/Release/scrypt")
+var scryptNative = require("node-loader!./build/Release/scrypt.node")
   , Crypto = require("crypto")
   , Os = require("os");
 
