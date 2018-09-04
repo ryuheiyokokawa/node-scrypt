@@ -1,6 +1,6 @@
 "use strict";
 
-var scryptNative = require("node-loader!./build/Release/scrypt.node")
+var scryptNative = require("node-addon-loader!./build/Release/scrypt.node")
   , Crypto = require("crypto")
   , Os = require("os");
 
